@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق المنبه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <h1> مرحبا بك في برنامج المنبه </h1>
+      <h1> صلي علي النبي </h1>
+        <div class="clock-section">
+            <h2>الساعة الرقمية</h2>
+            <div id="digital-clock"></div>
+        </div>
+        <div class="stopwatch-section">
+            <h2>ساعة التوقيت (Stopwatch)</h2>
+            <div id="stopwatch">00:00:00</div>
+            <button id="start-stopwatch">ابدأ</button>
+            <button id="stop-stopwatch">توقف</button>
+            <button id="reset-stopwatch">إعادة تعيين</button>
+        </div>
+        <div class="timer-section">
+            <h2>المؤقت (Timer)</h2>
+            <div id="timer">00:00:00</div>
+            <input type="number" id="hours" placeholder="ساعات">
+            <input type="number" id="minutes" placeholder="دقائق">
+            <input type="number" id="seconds" placeholder="ثواني">
+            <button id="start-timer">ابدأ المؤقت</button>
+            <button id="stop-timer">توقف المؤقت</button>
+            <button id="reset-timer">إعادة تعيين</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
